@@ -1,0 +1,17 @@
+BASIC LINUX 
+
+operator $ - environment variable 
+query : echo $USER
+output : shiba2 (nama user)
+
+export nootnoot=1111
+membuat variabel nootnoot sama dengan 1111
+
+operator | - membatasi dua query dengan mengambil query kedua 
+dan menyambungkan dengan query pertama 
+
+cat test | grep 123
+akan dicari string 123 pada file test 
+
+operator ; -- mirip dengan &&
+

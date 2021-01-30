@@ -1,0 +1,108 @@
+CHAPTER 2 : ATTACKS, CONCEPTS, AND TECHNIQUES 
+
+security vulnerabilities
+
+software vulnerabilities
+synful knock - cisco ios, attackers can gain control of routers
+to avoid : verify the integrity of ios image
+google project zero
+
+hardware vulnerabilities
+ram - rowhammer, rewriting memory in the same address
+rowhammer allows data to be retrieved from nearby address memory cell
+
+buffer overflow - data is written beyond limits of a buffer
+non validated input 
+race conditions 
+access control problems
+
+types of malware
+spyware - track and spy the user 
+adware 
+bot - automatically perform online actions 
+ransomware - hold a computer system 
+scareware - persuade user to take an action based on fear
+rootkit - create backdoor to os 
+virus - executable code attached to other files
+trojan horse - carries out malicious operations under guise of a desired operation
+worms - malicious code that replicates themselves
+man in the middle
+man in the mobile
+
+symptoms of malware
+increase in cpu usage
+decrease in computer speed 
+computer freees or crashes
+decrease in web browsing speed 
+unknown process running
+
+social engineering
+pretexting - calling and lying to an individual
+tailgating - follows an authorized person into a secure location
+something for something quid pro quo 
+
+wifi password cracking
+social engineering
+brute force attacks - ophcrack, thc hydra, rainbowcrack
+network sniffing
+
+dos 
+
+types of dos attacks 
+overwhelming quantity of traffic 
+maliciously formatted packets 
+
+ddos 
+
+seo poisoning (search engine optimization)
+improve a website's ranking by a search engine 
+
+blended attack 
+attacks that uses multiple techniques to compromise a target 
+ex : spam emails, ddos combined with phising emails 
+
+impact reduction 
+
+CHAPTER 3 : PROTECTING YOUR DATA AND PRIVACY
+keep the firewall on
+use antivirus and antispyware
+manage your os and browser
+protect all your devices - passwords
+
+use wireless networks safely
+change the pre set SSID and password for wifi
+wpa2 protocol can be exploited using KRACK 
+use VPN when connected to public wifi 
+
+use different passwords for each account
+do not use dictionary words
+do not use common misspellings
+do not use computer names
+
+use passphrase rather than a password
+
+
+data maintenance
+encrypt your data 
+efs (encrypting file system) can be used on windows
+
+back up your data
+
+deleting your data permanently
+sdelete, shred, secure empty trash 
+
+safeguarding your online privacy 
+two factor authentication
+used for : physical object, biometric scan 
+
+oauth
+
+dont share too much information
+
+email and web browser privacy
+use private tab/incognito
+
+
+CHAPTER 4 : PROTECTING THE ORGANIZATION 
+
+
