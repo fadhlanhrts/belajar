@@ -1,0 +1,61 @@
+junos os fundamentals
+
+junos os is used for routing, switching, and
+security devices
+
+junos os is divided into multiple parts 
+a robust modular os 
+if one process fails the whole system does not
+freebsd or linux
+
+junos os is a single software release 
+
+separation of control and forwarding
+routing and switching process are separated from 
+forwarding frames and packets
+goal : clean separation of control and forwarding functions
+
+routing engine (RE)
+brain of the platform, responsible for performing
+protocol updates and system management
+acts as the control plane 
+based on x86 or powerpc
+maintains the routing table, bridging table, and forwarding table
+connects to the packet forwarding engine through an internal link 
+
+packet forwarding engine (PFE)
+runs on separate hardware and forwards transit traffic
+uses application speficif IC (ASIC)
+central processing component
+synchronized copy of the forwarding table 
+uses layer 2 and 3 forwarding table 
+policers, state of firewalls, class of services 
+
+transit traffic
+traffic entering ingress port will be forwarded
+by forwarding plane
+PFE uses the copied forwarding table
+junos os can maintain high performance by doing so 
+can be multicast and unicast 
+
+exception traffic 
+does not pass through the local device 
+processed by the local system 
+requires special handling
+ex : routing protocol updates, ip packets with the ip options field
+rate limited on the internal link to protect from dos attacks
+
+overview of junos devices 
+provides end to end ip infrastructure
+routing devices : ptx series, mx series, acx series 
+switching devices : ex series, qfx series 
+security devices : srx series, 
+sdn products : nfx series, contrail cloud, northstar controller, mplsview
+
+junos os can also run as a vm using vmware or kvm 
+vmx virtual router 
+software emulation of router 
+ensures that vmx packet handling is identical to physical router 
+
+
+junos cli 
