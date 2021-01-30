@@ -59,3 +59,64 @@ ensures that vmx packet handling is identical to physical router
 
 
 junos cli 
+
+junos os offers 2 ui : cli & j web interface
+junos cli : text based command shell, can be accessed through out of band serial console
+j-web interface : web based GUI using http or https, installed on most platform running the junos os
+
+junos os requires username and password
+when logging in non root users are placed into the CLI automatically 
+amnesiac - nama hostname 
+
+start cli : type cli 
+logout : exit 
+
+cli modes : operational & configuration 
+operational : monitor, ping, show, test, traceroute
+used for monitoring and troubleshooting 
+sign : >
+
+configuration : configure interface, protocol, user access
+sign : #
+
+type ? for help (mirip cisco) 
+
+clear ? atau ? aja bisa
+
+command help
+
+help topic | help reference | help apropos
+help apropos archive 
+help topic interfaces ? 
+
+command bisa dipersingkat
+sh int 
+set cli complete-on-space off - mematikan autocomplete 
+gunakan tab untuk melengkapi command 
+
+
+operator pipe | 
+co : show route | ? 
+
+cli operational mode 
+show ospf interface 
+
+
+operational mode capabilities
+enter configuration mode
+control the cli environment
+exit cli
+monitor and troubleshoot
+  clear, monitor, ping, show 
+copy files 
+
+konfigurasi tidak langsung disimpan
+active configuration 
+  the configuration currently operational on the system 
+candidate configuration 
+  temporary configuration that could become active configuration 
+ 
+  PAGE 18
+  
+
+
