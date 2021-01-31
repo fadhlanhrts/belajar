@@ -116,7 +116,125 @@ active configuration
 candidate configuration 
   temporary configuration that could become active configuration 
  
-  PAGE 18
+
+untuk mengaktifkan konfigurasi candidate diperlukan konfirmasi dari cli
+jika konfigurasi benar maka akan diaktifkan
+
+konfigurasi lama dapat diaktifkan dengan perintah "rollback"
+os dapat menyimpan maksimal 50 konfigurasi 
+
+untuk masuk ke configuration
+"configure" (kalo di cisco conf t)
+
+beberapa user dapat memasuki mode configuration
+"configure exclusive" untuk membuat hanya satu user yang dapat memasuki mode configuration
+
+untuk membuat beberapa user memasuki config mode
+"configure private" perubahan akan terjadi pada mesin private
+
+pada config private jika terdapat dua user yg melakukan perubahan yg sama
+maka perubahan dari user kedua tidak akan berpengaruh hingga user pertama 
+memasukkan perintah commit 
+
+perintah pada mode operational dan config berbeda (independen)
+
+contoh konfigurasi kandidat
+user@router# set services ssl traceoptions level brief 
+user@router# show services
+ssl { 
+    traceoptions {
+        level brief;
+    }
+}
+
+moving between levels
+edit 
+  like a change directory command
+  user@router# edit protocols ospf area 51 stub
+up
+  move up one level from the current position 
+up n (n=2,3, st)
+  move up n level
+top
+  move to thr top of the configuration hierarchy
+  top show system services 
+exit
+  moves to the previous, higher level in the hierarchy
   
+
+adding configuration statements
+use set
+  ex : user@router# set ftp
+
+use delete to remove configuration
+  ex : user@router# delete telnet 
+  wildcard delete interfaces ge-1/*
+
+use deactivate
+  deactivate interfaces (nama interface)
+  activate interfaces 
+  
+additional commands
+rename
+replace
+copy
+
+helpful configruation
+deactivate interfaces 
+insert term three before term two
+annotate name-server "adding new name servers"
+
+
+
+viewing the candidate configuration
+show system services 
+edit system services
+
+show system services | display set 
+
+committing a configuration (menyimpan konfigurasi)
+  user@router# commit 
+
+validating syntax
+  user@router# commit check 
+
+remote configuration
+  commit confirmed 
+  
+scheduled commits 
+  commit at 21:00:00
+  commit comment "changed ospf configuration"
+  commit and-quit 
+  
+comparing configuration file differences 
+  compare candidate and active config -> show | compare
+  compare active and historical config -> show configuration | compare rollback (number)
+  compare arbitrary files -> file compare files (file1) (file2)
+  
+backing out of configuration changes
+rollback (version)
+  ex : rollback 1, rollback 49
+  
+set max-configurations-on-flash -> menambah jumlah rollback yang tersedia (defaultnya 50)
+  
+saving configuration files
+  save (filename) -> akan disimpan pada user jika tidak ditulis directorynya
+  
+loading configuration files
+  load ?
+
+using run command
+  execute operational mode commands while in config mode 
+  
+  
+J-WEB INTERFACE
+
+  
+
+
+
+
+
+
 
 
