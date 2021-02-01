@@ -229,12 +229,77 @@ using run command
   
 J-WEB INTERFACE
 
+web based interface - via http or https 
+
+j-web UI
+dashboard - summary
+configure - gui or text
+monitor - view the result 
+reports - generate reports
+administration - ping or traceroute 
+
+j-web login 
+uses the same authentication as CLI
+remote access : enable http or https 
+j web comes pre installed on vrx and v
+uses username and password 
+
+
+basic settings 
+configure > device settings > basic settings 
+on setup wizard : create new configuration 
+
   
+identity details
+set or change hostname
+change root password
+configure DNS servers
+search domains 
+configuration still needs to be committed 
+
+management access configuration
+configure : 
+ip address
+loopback address
+access methods
+system services
+
+management access configuration
+enable or disable telnet, ssh, ftp, http, access 
+for https : specify security certificate 
+pilih tombol commmit untuk membuat konfigurasi diimplementasikan
+
+other configurations
+interfaces configuration
+security zones creation
+firewall policies 
+
+j web elements
+dashboard - provides a quick view of the system's current status
+configure - configure devices
+monitor - monitor commands in the cli 
+administration - manage file systems 
+reports - generate reports on demand 
 
 
+packet capture - capture and analyze traffic 
+does not capture transit traffic 
+to perform monitoring : administration > tools > packet capture > start 
+
+junos os upgrade 
+administration > devices > software > upload package 
+
+creating new user 
+configure > users > user management 
+
+interface configuration
+configure > interfaces > ports > edit logical interface 
 
 
+commit and-quit
 
+
+INITIAL CONFIGURATION 
 
 
 
