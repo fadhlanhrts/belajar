@@ -1,0 +1,111 @@
+selasa, 2 februari 2021
+
+f(gambar kucing) = "cat"
+
+regression 
+
+what is regression ?
+one of machine learning task 
+output a scalar 
+
+case study : estimating the combat power of a pokemon 
+
+parameters
+x mmeans one pokemon
+xcp means pokemon's current xp
+xs means pokemon's species
+xhp means pokemon's hp
+xw means pokemon's weight 
+f() means the function
+y means the output
+
+how to set up the function model 
+according to our experience 
+use the linear model 
+
+y = b + w . xcp 
+
+step 2 : goodness of function 
+loss function 
+input : a function from the model
+output : how good or bad it is 
+
+step 3 : pick the best function
+components we have at the present
+  function set
+  training data
+  loss function 
+
+gradient descent 
+
+example for model y = w * x
+loss function " y^
+
+4 steps for gradient descent 
+step 1 : pick an initial value w0
+step 2 : compute dL/dw | w = w0
+
+negative -> increase w
+positive -> decrease w 
+
+step 3 : increase or decrease weight 
+  determine the step size 
+  set up the learning rate 
+step 4 : get the w*
+
+back to the pokemon case 
+
+use testing data 
+
+how can we do better for prediction
+add the complexity for your model 
+overfitting ? model selection, good for testing bad for training 
+add related features into model 
+
+
+CLASSIFICATION 
+what is classification'one of machine learning task
+output is discrete (class)
+
+case study : predict the types of pokemon 
+training data : number 1-400 pokemon 
+
+in ideal : only identify 2 class - water type and other type 
+step 1 : set up the function model 
+function : 
+  g(x) > 0 output = class 1
+  else output = class 2
+  
+step 2 : set up the loss function 
+in classification - find the lower value in loss function
+
+step 3 : find the best function 
+perceptron & svm
+why not gradient descent - loss function is undifferential
+other solution : generative model
+
+GENERATIVE MODEL 
+
+likelihood function == loss function 
+find maximum likelihood
+use partial differentiation 
+
+quick conclusion of using generative model 
+  function set
+  
+logistic regression 
+conclusions from generative model 
+  z = wx + b 
+step 1 : function set (model)
+sigmoid function 
+
+step 2 : goodness of function 
+training data : f
+
+derive the likelihood function 
+argmin (-ln(L(w,b)))
+
+step 3 : find the best function 
+
+
+AI DJ 
