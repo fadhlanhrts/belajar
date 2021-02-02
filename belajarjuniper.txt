@@ -301,5 +301,112 @@ commit and-quit
 
 INITIAL CONFIGURATION 
 
+factory default configuration
+  enables access using root
+  requires a password to be set before activating any changes
+  includes system logging to track events
+  command : show system syslog 
+  different on each device
+  
+loading a factory default configuration
+  load factory-default 
+  to activate configuration 
+    set system root-authentication plan-text-password
+    commit 
+  
+gracefully shut down before removing power
+  request system halt 
+ 
+initial configuration checklist
+  root password
+  hostname
+  system time
+  remote access protocol (telnet, ssh)
 
 
+steps to configure a junos device
+    1. login as root
+      login : root
+    2. start cli
+      command : cli 
+    3. enter configuration mode
+      command : config 
+    4. set identification parameters
+      command : set root-authentication plain-text-password 
+      
+    5. set time parameter
+      set time-zone America
+    6. set management access parameters
+      root# set services telnet
+      set services ssh 
+    7. set management network parameters
+      set interfaces (interfacename) unit 0 family inet address 10.0.1.131/27
+      
+    8. activate configuration 
+
+viewing the results 
+  root@router> show configuration
+
+rescue configuration  
+  designed to restore basic connectivity 
+  requirement : root password 
+  saves active configuration as rescue config
+    request system configuration rescue save 
+   deletes current configuration
+    request system configuration rescue delete
+  rollback rescue - commit -> loads and activates current configuration 
+  
+
+types of interfaces
+  management interfaces
+    connect to a management network 
+    ex : fxp0 and me0
+    
+  internal interfaces
+    connect control and forwarding plane 
+    ex : fxp1 and em0
+    
+  network interfaces
+  services interfaces
+    provide one or more user configurable services such as encryption, tunneling 
+    es, gr, ip, ls, ml
+    
+    
+  loopback interfaces 
+
+
+logical unit
+  connect two or more logical interfaces into one physical interface 
+
+ppp and hdlc
+  one logical interface 
+
+multiple logical interfaces
+  frame relay, atm, tagged ethernet
+
+circuit identifier disamakan dengan unit number 
+
+multiple addresses
+  
+
+interface properties
+  physical and logical 
+  physical
+    data link protocol, link mode, speed, MTU, fcs
+  logical 
+    protocol family, addresses, virtual circuits 
+    
+interface configuration
+  use the preferred option
+  172.19.102.1/24;
+  172.19.102.2/24
+    preferred
+  address kedua akan digunakan 
+  
+show interfaces terse
+
+
+SECONDARY SYSTEM CONFIGURATION 
+ntp, snmp, archive 
+
+    
