@@ -409,4 +409,14 @@ show interfaces terse
 SECONDARY SYSTEM CONFIGURATION 
 ntp, snmp, archive 
 
+user authentication
+  local password authentication
+  radius and tacacs+
+
+authentiaction order
+radius - tacplus - local authentication 
+
+show system authentication-order
     
+PAGE 7
+
