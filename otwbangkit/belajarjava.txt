@@ -63,9 +63,29 @@ grocerylist.get(0).get(1)
 
 FOR EACH LOOP
 
+String[] animal = {"cat", "dog", "mouse"};
+for(String i : animal) {
+  System.out.println(i);
+}
 
+menggunakan collection(arraylist)
+ArrayList<String> animal = new ArrayList<String>();
+animal.add("cat");
+animal.add("dog");
+animal.add("mouse");
 
+for(String i : animal) {
+  System.out.println(i);
+}
 
+FINAL
+variabel tidak dapat diubah
 
+ABSTRACTION
+adds layer of security
+public abstract class Vehicle {
+  abstract void go();
+  
+}
 
 
