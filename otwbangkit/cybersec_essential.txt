@@ -1,0 +1,44 @@
+CHAPTER 1
+
+cybersecurity domains
+facebook, linkedin 
+growth of cyber domains : geospatial information system (GIS) and IoT
+
+types of cyber criminals
+amateurs : script kiddies
+hackers : breaks into computer networks
+organized hackers : hacktivists, terrorists
+
+thwarting cyber criminals
+  creating comprehensive databases of known system vulnerabilities
+  establishing early warning sensors
+  sharing cyber intelligence information 
+
+types of personal records
+  medical records
+  education records
+  employment and financial records 
+
+threats to internet services 
+  dns spoofing
+  packet injection (mitm)
+  
+internal and external threats
+
+national cybersecurity workforce framework 
+  operate and maintain
+  protect and defend 
+  investigate
+  collect and operate
+  analyze 
+  oversight and development 
+  securely provision 
+  
+cert
+  comptia
+  ceh
+  cissp
+  ccna security
+  
+CHAPTER 2
+
