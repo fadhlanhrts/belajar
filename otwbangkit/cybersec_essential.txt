@@ -40,5 +40,49 @@ cert
   cissp
   ccna security
   
-CHAPTER 2
+  
+  
+  
+CHAPTER 2 : cybersecurity cube 
+principles of security
+  confidentiality, integrity, availability
+  c : prevents the disclosure of information 
+  i : accuracy, consistency, trustworthiness
+  a : ensures that information is accessible
+  
+three states of data
+  data in transit
+  data at rest or in storage
+  data in process
+
+cybersecurity safeguards
+  technological tools
+  establishing policies, procedures, and guidelines
+
+the principle of confidentiality
+  prevents the disclosure of information to unauthorized people
+  data encryption, authentication, and access control 
+
+
+protecting data privacy
+  personal identifiable information
+  business information
+  classified information
+ 
+controlling access 
+  authentication, authorization, and accounting
+  authentication
+    something they know (password)
+    something they have (card)
+    something they are (fingerprint)
+ 
+ authorization
+  determines which resources users can access
+ 
+ accounting
+  keep track of what users do
+
+
+2.2.2.1 - principle of data integrity
+
 
