@@ -243,4 +243,45 @@ whaling
 
 
 3.1.2.5 browser plugins
+plugins
+  flash player exploitation - system crash, criminal taking control of the affected system
+SEO poisoning - increase traffic to malicious site 
+browser hijacker - alters a browser's settings to redirect to websites paid for by the cyber criminals customer
+
+
+defending against email and browser attacks
+  educating the user
+  defend against spam - isp filter, antivirus
+  keeping all software updated 
+  
+
+3.2.1.1 social engineering
+pretexting - attacker calls an individual 
+something for something (quid pro quo)
+
+social engineering tactics
+  authority
+  intimidation
+  consensus - people will take action if they think other people like it too
+  scarcity - people will... if there is a limited quanity
+  urgency - people will... if there is limited time
+  familiatiy
+  trust
+  
+
+shoulder surfing & dumpster diving
+impersonation and hoaxes
+piggybacking & tailgating
+  give appearance of being escorted by the authorized individual
+  join a large crowd pretendong to be a member
+  target a victim who is careless sbout the rules of the facility
+
+defending against deception
+  never provide confidential information via email, chat sessions, in person
+  resist the urge to click on enticing emails
+  keep an eye out for uninitiated or automatic downloads
+  do not fall to pressure from unknown individuals
+
+
+3.3.1 cyber attacks
 
