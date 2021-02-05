@@ -83,6 +83,125 @@ controlling access
   keep track of what users do
 
 
+
 2.2.2.1 - principle of data integrity
+integrity - accuracy, consistency, and trustworthiness of data
+methods - hashing, data validation checks, data consistency checks
+
+need for data integrity
+critical level - healthcare and emergency services
+high level - ecommerce and analitycs
+mid level - online sales and search engines
+low level - blogs and personal posting sites
+
+
+integrity checks 
+a way to measure the consistency of a collection of data
+example of hash function - checksum 
+md5, sha-1, sha-256 
+
+
+
+
+
+2.2.3.1 - principle of availability
+maintaining availability of information system
+methods - system redundancy, system backups, equipment maintanance
+design principles of high availability systems
+  eliminate single points of failure
+  provide for reliable crossover
+  detect failures as they occur 
+five nines design principles
+  standardized systems
+  shared component systems
+  clustering
+
+ensuring availability
+  equipment maintenance
+  os and system updates
+  backup testing
+  disaster planning
+  new technology  implementations
+  unusual activity monitoring
+  availability testing
+
+
+
+2.3 states of data
+2.3.1 data at rest
+types of data storage
+  direct attached storage - hard drive
+  raid
+  network attached storage 
+  storage area network
+  cloud
+  
+2.3.2 data in transit
+methods of transmitting data
+  sneaker net - usb
+  wired networks
+  wireless networks
+challenges of protecting data in transit
+  protecting data confidentiality
+  protecting data integrity
+  protecting data availability
+
+2.3.3 data in process
+data during initial input, modification, computation
+data corruption occurs during data output 
+
+
+
+2.4.1 technologies
+software based tech
+  software firewalls
+  network and port scanners
+  protocol analyzer
+  vulnerability scanners
+  intrusion detection system
+  
+hardware based tech
+  firewall appliances
+  ids
+  ips
+  content filtering services
+
+network based tech
+  vpn
+  nac
+  wap security
+
+cloud based tech
+  saas
+  iaas
+  paas
+  
+policies
+  identification and authentication policies
+  password policies
+  acceptable use policies - identifies network resources and usage
+  that are acceptable to the organization
+  remote access policies
+  network maintenance policies
+  incident handling policies
+  
+
+2.5.1 iso cybersecurity model 
+twelve domains of cybersecurity
+  risk assessment
+  security policy
+  organization of information security
+  asset management
+  human resource security
+  physical and environmental security
+  communciations and operations management
+  information systems aacquisition, development and maintenance
+  access control
+  information security incident management
+  business continuity management
+  compliance
+  
+
+CHAPTER 3
 
 
