@@ -203,5 +203,44 @@ twelve domains of cybersecurity
   
 
 CHAPTER 3
+3.1 malware and malicious code
+virus
+  malicious executable code attached to another file 
+  melissa virus - spread via email
+worms
+  malicious code that replicates by independently exploiting vulnerability in networks
+  ex - code red worm
+trojan horse 
+  malware that carries out malicious operations under the guise of a desired operation
 
+logic bombs
+  malicious program that uses a trigger to awaken the malicious code
+
+ransomware 
+  holds a computer system, user must pay 
+
+backdoor and rootkit
+  backdoor - bypasses the normal authentication, grant cyber criminals access to unauthorized system users
+  rootkit - modifies the operating system to create a backdoor 
+  
+defending against malware
+  antivirus
+  up to date software
+
+3.1.2 email and browser attacks
+spam
+  no subject line
+  requesting an update to an account
+spyware, adware, and scareware
+phising
+vhising
+  phising using voip
+smishing 
+  phising using text message
+pharming
+  impersonation of a legitimate website
+whaling
+
+
+3.1.2.5 browser plugins
 
