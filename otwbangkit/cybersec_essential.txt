@@ -284,4 +284,108 @@ defending against deception
 
 
 3.3.1 cyber attacks
+denial of service
+  overwhelming quantity of traffic
+  maliciously formatted packets
+ddos
+  attacker builds a network of infected hosts - botnet
+  infected hosts - zombies 
+
+sniffing
+  eavesdropping - attackers examine all network traffic 
+  physical security - preventing
+
+spoofing
+  impersonation attack 
+  sending a packet to one system that appears to have come from a trusted system
+  types of spoofing
+    mac address
+    ip spoofing
+    arp spoofing
+    dns spoofing
+ 
+man in the middle
+  intercepting communications between computers
+  man in the mobile - takes control over a mobile device
+  
+zero day attacks
+  exploit vulnerabilities that are unknown by the software vendor
+  
+keyboard logging 
+  program that records or logs the keystrokes of the user 
+
+defending against attacks
+  dos and ddos - ensure patches and upgrades are current
+  configure firewalls
+  
+
+3.3.2 wireless and mobile device attacks
+grayware - applications that behave in an annoying or undesirable manner
+smishing - sms phising 
+    
+rogue access points
+  a wireless access point installed on a secure network without explicit authorization
+
+rf jamming
+
+bluejacking
+  sending unauthorized messages to another bluetooth device
+  
+bluesnarfing 
+  attacker copies the victim's information from his device
+  
+wep and wpa attacks
+wired equivalent privacy (wep) is a security protocol that attempted to provide a wlan with the same security as a wired lan
+
+defending against wireless and mobile device attacks
+  restrict access points placement with the network by placing firewall, dmz
+  netstumbler - discover rogue ap or unauthorized workstations
+  
+  
+  
+  
+NOTE : KERJAIN PKA WEP-WPA SECURITY
+
+
+
+
+
+3.3.3 application attacks
+cross site scripting (xss)
+  inject scripts into web pages 
+
+code injection
+  xml injection
+    threatens the security of the database
+  sql injection
+    inserting malicious sql statement
+
+buffer overflow
+  data goes beyond the limits of a buffer 
+  
+remote code executions
+  metasploit
+  
+activex controls
+  browsing 
+
+java 
+  jvm isolates untrusted codes
+  
+defending against application attacks
+  writing solid code
+  keep all software & os up to date 
+  
+  
+  
+  
+
+CHAPTER 4 
+
+
+
+
+
+
+
 
