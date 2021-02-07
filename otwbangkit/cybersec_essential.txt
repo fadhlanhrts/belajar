@@ -380,11 +380,20 @@ defending against application attacks
   
   
 
-CHAPTER 4 
+CHAPTER 4 - the art of protecting secrets
+cryptography - a way to store and transmit data so only the recipient can read or access it
+cryptology - science of making and breaking secret codes
+methods of creating ciphertext
+  transposition
+  substitution
+  one-time pad
 
+types of encryption
+  symmetric algorithms - use the same pre shared key to encrypt and decrypt data 
+  asymmetric algorithms - uses one key to encrypt data and a different key for decrypting 
 
-
-
+symmetrical encryption process
+  alice sends a message - 
 
 
 
