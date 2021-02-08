@@ -1,0 +1,9 @@
+SERVICE AND SYSTEMCTL
+  service apache2 start - menyalakan web server, login dengan memasukkan ip address
+  cara lain untuk menyalakan web server - python -m SimpleHTTPServer 8080 
+  
+  systemctl enable postgresql - membuat postgres menyala saat sistem boot
+  
+
+
+  
