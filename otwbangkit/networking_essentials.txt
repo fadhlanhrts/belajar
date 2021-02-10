@@ -1,0 +1,21 @@
+CHAPTER 13 : SET UP HOME NETWORK 
+  router dapat dikonfigurasikan dengan wired ataupun wireless
+  port ethernet dihubungkan dengan perangkat rumah sedangkan
+  port internet dihubungkan dengan dsl
+  
+  teknologi wifi menggunakan standard 802.11 serta pada frekuensi 2.4 ghz & 5 ghz
+  teknologi wireless menggunakan gelombang elektromagnetik untuk mengirim data 
+  
+  pada koneksi wireless digunakan csma/ca untuk mencegah collision pada koneksi
+    perangkat a akan mengirim rts atau request to send
+    access point akan memeriksa ketersediaan
+    access point mengirimkan cts atau clear to send
+    perangkat a akan membentuk channel dan mengirim data
+    perangkat a akan mengirim pesan ack untuk memberi informasi bahwa transmisi telah selesai
+    channel dilepas
+    
+ pada koneksi wireless dibutuhkan ssid untuk mengidentifikasi koneksi perangkat 
+ 
+ untuk meningkatkan keamanan dapat digunakan konfigurasi ssid tamu
+ 
+ 
