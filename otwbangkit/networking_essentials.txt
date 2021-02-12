@@ -19,3 +19,48 @@ CHAPTER 13 : SET UP HOME NETWORK
  untuk meningkatkan keamanan dapat digunakan konfigurasi ssid tamu
  
  
+CHAPTER 14 : CONNECT TO THE INTERNET 
+isp 
+  provides internet connectivity
+
+cable and dsl connection
+  cable : typically offered by cable tv providers, signal is carried on the same coaxial cable that delivers cable tv
+  dsl : provides a high bandwidth always on connection to the internet, splitting the connection into three parts
+  
+  additional connectivity options
+  cellular
+  satelite 
+  dial up telephone
+  
+  14.2 network virtualization
+  cloud computing
+  types of clouds
+    public cloud
+    private cloud - intended for specific organization or entity
+    hybrid cloud
+    community cloud
+    
+  cloud services
+    SaaS - user provides data
+    PaaS - programmers, having control over the configuration setting of the application
+    IaaS - giving IT manager access to the network equipment
+    
+  network virtualization
+    traditional networking hardware + software network resources 
+    
+  control and data planes
+    control plane - brains of a device, used for making forwarding decisions, control plane contains layer 2 and 3 routing, information processed by the cpu
+    data plane - used for forwarding traffic flows, information processed by a special data plane processor not cpu
+    
+ 
+ MODULE 15 : SECURITY CONSIDERATIONS 
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
