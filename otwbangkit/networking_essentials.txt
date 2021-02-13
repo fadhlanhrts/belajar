@@ -57,7 +57,25 @@ cable and dsl connection
  
   
   
+MODULE 16 : CONFIGURE NETWORK AND DEVICE SECURITY
+wireless vulnerabilities
+  war driving - driving around an area searching for wlan
+  war walking
+  war chalking
+
+comprehensive security plan 
+  basic wireless settings - change the default ssid, disable ssid broadcast
+  wireless security - configure the mode to use wpa2 personal, set the encryption to aes
+  mac address filtering
+  port forwarding
   
+implement wireless security
+  open authentication
+  authentication and association
+  authentication protocols - wep uses static key, less secure compared to wpa2
+  
+  firewall
+  dmz
   
   
   
