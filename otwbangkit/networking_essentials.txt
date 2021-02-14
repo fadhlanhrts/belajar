@@ -77,7 +77,18 @@ implement wireless security
   firewall
   dmz
   
-  
+
+CHAPTER 20 : NETWORK TROUBLESHOOTING
+nature of problem - end user reports, problem verification report
+equipment - manufacturer, firmware
+
+structured troubleshooting methods
+  bottom up - start with the physical layer and the physical component
+  top down - start with the end user applications
+  divide and conquer - start by collecting user experience from layer 2/3/4
+  follow the path 
+  substitution 
+  comparison 
   
   
   
