@@ -91,5 +91,19 @@ structured troubleshooting methods
   comparison 
   
   
+physical layer problems
+device power turned off, incorrect cable type, faulty network cable
+troubleshooting
+  sense of sight
+  sense of smell and taste 
+  sense of touch
+  sense of hearing
   
-  
+troubleshooting commands
+  ipconfig
+  ping
+  netstat
+  tracert
+  nslookup
+
+
