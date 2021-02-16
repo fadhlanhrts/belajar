@@ -339,4 +339,520 @@ menggunakan teleskop Zeiss, wajib mendaftarkan diri. Untuk instansi atau lembaga
 
 
 
+
+
+
+
+
+
+
+
+Selasa, 16 Februari 2021
+
 header, footer, main, nav
+    muncul pada awal dan akhir di sebuah halaman <body>
+    header digunakan sebagai pengantar atau pembuka konten 
+    footer digunakan sebagai catatan kaki 
+    
+    elemen <header> dan <footer> tidak boleh ditumpuk dalam elemen header dan footer lainnya
+    
+ main
+    elemen <main> digunakan untuk menampung konten utama dalam <body>
+    dalam elemen <main> dapat dimasukkan elemen section dan article 
+    
+  nav
+    elemen nav digunakan untuk menampung sebuah navigasi 
+    
+  contoh penggunaan
+  
+  
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kota Bandung</title>
+</head>
+<body>
+ <header>
+    <h1>Bandung</h1>
+        <p>Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut.</p>
+    <nav>
+    <ul>
+        <li><a href="#sejarah">Sejarah</a></li>
+        <li><a href="#geografis">Geografis</a></li>
+        <li><a href="#wisata">Wisata</a></li>
+    </ul> 
+    </nav>
+</header>
+
+<h2 id="sejarah">Sejarah</h2>
+<img src="assets/image/history.jpg" alt="sejarah">
+<p>Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum oleh lava Gunung Tangkuban Parahu yang lalu membentuk telaga. Legenda yang diceritakan oleh orang-orang tua di
+Bandung mengatakan bahwa nama Bandung diambil dari sebuah kendaraan air yang terdiri dari dua perahu yang diikat berdampingan yang disebut perahu bandung yang digunakan oleh Bupati Bandung, R.A. Wiranatakusumah II, untuk melayari Ci Tarum dalam mencari tempat kedudukan kabupaten yang baru untuk
+menggantikan ibu kota yang lama di Dayeuhkolot. </p>
+ 
+<p>Berdasarkan filosofi Sunda, kata Bandung juga berasal dari kalimat Nga-Bandung-an Banda Indung, yang merupakan kalimat sakral dan luhur karena mengandung nilai ajaran Sunda. Nga-Bandung-an artinya menyaksikan atau bersaksi. Banda adalah segala sesuatu yang berada di alam hidup yaitu di bumi dan atmosfer, baik makhluk hidup maupun benda mati. Sinonim dari banda adalah harta. Indung berarti Ibu atau Bumi, disebut juga sebagai Ibu Pertiwi tempat Banda berada.</p>
+ 
+<h2 id="geografis">Geografis</h2>
+<img src="assets/image/geografis.jpg" alt="geografis">
+<p>Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi wilayahnya bagaikan sebuah mangkok raksasa, secara geografis kota ini terletak di tengah-tengah provinsi Jawa Barat, serta berada pada
+ketinggian ±768 m di atas permukaan laut, dengan titik tertinggi di berada di sebelah utara dengan ketinggian 1.050 meter di atas permukaan laut dan sebelah selatan merupakan kawasan rendah dengan ketinggian 675 meter di atas permukaan laut.</p>
+ 
+<p>Kota Bandung dialiri dua sungai utama, yaitu Sungai Cikapundung dan Sungai Citarum beserta anak-anak sungainya yang pada umumnya mengalir ke arah selatan dan bertemu di Sungai Citarum. Dengan kondisi yang
+demikian, Bandung selatan sangat rentan terhadap masalah banjir terutama pada musim hujan.</p>
+ 
+<h2 id="wisata">Wisata</h2>
+<p>Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan utama dalam menikmati liburan akhir pekan terutama dari masyarakat yang berasal dari Jakarta sekitarnya. Selain menjadi kota wisata belanja,
+kota Bandung juga dikenal dengan sejumlah besar bangunan lama berarsitektur peninggalan Belanda.</p>
+ 
+<h3>Farm House Lembang</h3>
+<img src="assets/image/farm-house.jpg" alt="farm house">
+<p>Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata yang tidak pernah sepi pengunjung. Selain karena letaknya strategis, kawasan ini juga menghadirkan nuansa wisata khas Eropa. Semua itu diterapkan dalam bentuk spot swafoto Instagramable.</p>
+ 
+<h3>Observatorium Bosscha</h3>
+<img src="assets/image/bosscha.jpg" alt="bosscha">
+<p>Memiliki beberapa teleskop, antara lain, Refraktor Ganda Zeiss, Schmidt Bimasakti, Refraktor Bamberg, Cassegrain GOTO, dan Teleskop Surya. Refraktor Ganda Zeiss adalah jenis teleskop terbesar untuk meneropong bintang. Benda ini diletakkan pada atap kubah sehingga saat teropong digunakan, atap tersebut harus dibuka. Observatorium Bosscha boleh dikunjungi oleh siapapun, tanpa tiket. Namun, bagi yang ingin
+menggunakan teleskop Zeiss, wajib mendaftarkan diri. Untuk instansi atau lembaga pendidikan, diberikan jadwal hari Selasa sampai Jumat. Sementara itu, kunjungan individu dibuka setiap hari Sabtu.</p>
+ 
+</body>
+</html>
+
+
+
+
+articles
+    elemen <article> bertindak sebagai container untuk konten independen 
+    <article>
+   <h2>Sejarah</h2>
+   <img src="img/history.jpg">
+   <p>Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum oleh lava
+       Gunung Tangkuban Parahu yang lalu membentuk telaga...</p>
+</article>
+<article>
+   <h2>Geografis</h2>
+   <img src="img/geografis.jpg">
+   <p>Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi wilayahnya bagaikan sebuah mangkok
+       raksasa,[9] secara geografis kota ini terletak di tengah-tengah provinsi Jawa Barat..</p>
+</article>
+
+
+
+aside
+    ketika ditempatkan dalam <article> akan berisikan informasi yang berkaitan dengan artikel 
+    ketika ditempatkan di luar artikel maka akan berisi informasi yang berkaitan dengan keseluruhan halaman 
+    <aside>
+       <article>
+           <header>
+               <h2>Kota Bandung</h2>
+               <p>Kota Kembang Paris van Java</p>
+               <figure>
+                   <img src="img/bandung-badge.png">
+                   <figcaption>Lambang</figcaption>
+               </figure>
+           </header>
+       </article>
+   </aside>
+   
+   
+   
+  section 
+    sebuah elemen yang memiliki kesamaan konten dan memiliki sebuah heading dapat dikelompokkan dengan menggunakan section 
+    section>
+       <h2 >Wisata</h2>
+       <p>Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan utama dalam menikmati liburan
+           akhir
+           pekan terutama dari masyarakat yang berasal dari Jakarta sekitarnya. Selain menjadi kota wisata belanja,
+           kota Bandung juga dikenal dengan sejumlah besar bangunan lama berarsitektur peninggalan Belanda.</p>
+   </section>
+   <section>
+       <h3>Farm House Lembang</h3>
+       <img src="img/farm-house.jpg">
+       <p>Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi wilayahnya bagaikan sebuah mangkok
+           raksasa,[9] secara geografis kota ini terletak di tengah-tengah provinsi Jawa Barat, serta berada pada
+           ketinggian ±768 m di atas permukaan laut, dengan titik tertinggi di berada di sebelah utara dengan
+           ketinggian 1.050 meter di atas permukaan laut dan sebelah selatan merupakan kawasan rendah dengan
+           ketinggian 675 meter di atas permukaan laut.</p>
+   </section>
+   
+   
+   
+   
+GENERIC ELEMENT 
+div
+    merupakan wadah yang bersifat umum untuk menampung beberapa konten
+    contoh penggunaan
+    
+    <!DOCTYPE html>
+<html>
+ 
+<head>
+   <title>Div Element</title>
+   <style>
+       .shadowbox {
+           width: 15em;
+           border: 1px solid #333;
+           box-shadow: 8px 8px 5px #444;
+           padding: 8px 12px;
+           background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+       }
+   </style>
+</head>
+ 
+<body>
+   <div class="shadowbox">
+       <p>Paragraf ini berada di dalam elemen div, namun akan ditampilkan sama seperti paragraf biasanya. Elemen ini lebih sering digunakan untuk mengelompokkan sebuah konten sehingga dapat memudahkan styling dengan menggunakan atribut class atau id.
+       </p>
+   </div>
+</body>
+ 
+</html>
+
+
+
+
+span
+    sama seperti div namun tidak terdapat break, biasanya diselipkan dalam elemen lain
+    <style>
+   .phone {
+       font-weight: bold;
+   }
+</style>
+ 
+<ul>
+   <li>Agil: <span class="phone">08123xxx</span></li>
+   <li>Widy: <span class="phone">08222xxx</span></li>
+   <li>Gilang: <span class="phone">08333xxx</span></li>
+</ul>
+
+
+
+
+
+
+
+
+
+TABLE
+
+menggunakan elemen <table>
+    <h1>Pemenang Piala Dunia tiga tahun terakhir</h1>
+ 
+<table>
+   <tr>
+       <th>Tahun</th>
+       <th>Juara 1</th>
+       <th>Juara 2</th>
+       <th>Juara 3</th>
+   </tr>
+   <tr>
+       <td>2018</td>
+       <td>Prancis</td>
+       <td>Kroasia</td>
+       <td>Belgium</td>
+   </tr>
+   <tr>
+       <td>2014</td>
+       <td>Jerman</td>
+       <td>Argentina</td>
+       <td>Belanda</td>
+   </tr>
+   <tr>
+       <td>2010</td>
+       <td>Spanyol</td>
+       <td>Belanda</td>
+       <td>Jerman</td>
+   </tr>
+</table>
+
+
+
+th - table header
+td - table data
+tr - table row
+
+
+Spanning cell
+    merging cell pada word/excel
+    
+   colspan - header berisi dua kolom
+   
+    <table>
+   <tr>
+       <th>18:00</th>
+       <th>19:00</th>
+       <th>20:00</th>
+   </tr>
+   <tr>
+       <td colspan="2">Avenger Infinity Wars</td>
+       <td>It Chapter 2</td>
+   </tr>
+   <tr>
+       <td>One Piece: Stampede</td>
+       <td>Weathering With You</td>
+       <td>Gundala</td>
+   </tr>
+   <tr>
+       <td>Gundala</td>
+       <td colspan="2">Avenger Infinity Wars</td>
+   </tr>
+</table>
+
+atribut colspan akan mencakup jumlah kolom yang sesuai dengan nilai
+
+
+Row spans 
+    untuk merentangkan baris
+    
+    <table border="1">
+   <tr>
+       <th rowspan="3">18:00</th>
+       <td>Avenger Infinity Wars</td>
+   </tr>
+   <tr>
+       <td>One Piece: Stampede</td>
+   </tr>
+   <tr>
+       <td>Gundala</td>
+   </tr>
+</table>
+
+
+
+    
+SPECIAL CHARACTER
+copyright symbol, > dan < 
+ditulis menggunakan escaped character 
+referensi karakter dimulai dengan & dan diakhiri dengan ;
+contoh : copyright - &copy;
+
+
+
+    INTRODUCTION TO STYLING
+ 
+ Menuliskan aturan styling
+ h1 { color: green; }
+ 
+p {
+   font-size: small;
+   font-family: sans-serif;
+}
+
+aturan di atas akan mengatur elemen h1 serta p atau paragraf 
+h1 merupakan selector
+color merupakan properti
+green merupakan value 
+penulisan satuan wajib digabung
+    co : margin : 2em;
+    
+    
+Melampirkan styling
+    external style sheet
+    <head>
+        <title>Document Title</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    menggunakan bootstrap
+       <head>
+            <title>Document Title</title>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+       </head> 
+
+embedded style sheet
+menggunakan elemen <style>
+    head>
+   <title>Document Title</title>
+   <style>
+       /*
+        * Rules styling dituliskan di sini
+        */
+   </style>
+</head>
+
+
+CSS
+    selector dapat digabungkan seperti berikut
+    h2, h3 {
+    color: #00a2c6
+ }
+ 
+ 
+selector basic
+    type selector
+        span {
+           color: red;
+       }
+       semua elemen span akan berwarna merah
+       
+     class selector - diawali dengan . diikuti dengan nama kelasnya
+      .red {
+           color: red;
+       }
+ 
+       .skyblue-bg {
+           background-color: skyblue;
+       }
+ 
+       .fancy {
+           font-weight: bold;
+           text-shadow: 4px 4px 3px #77f;
+       }
+       
+       cara memasukkan ke html
+        <p class="red">Paragraf dengan teks berwarna merah</p>
+        <p class="skyblue-bg">Paragraf dengan background berwarna biru langit</p>
+        
+        sebuah elemen dapat memiliki lebih dari satu kelas
+        <h1 class="red skyblue-bg">Heading dengan teks berwarna merah dan background biru langit</h1>
+        <p class="red fancy">Paragraf dengan teks berwarna merah dan bergaya fancy</p>
+        
+        
+        sebuah elemen dapat digabungkan dengan sebuah rule
+         .fancy {
+           font-weight: bold;
+           text-shadow: 4px 4px 3px #77f;
+       }
+ 
+       p.fancy {
+           text-shadow: 4px 4px 3px #00c8eb;
+       }
+       
+       
+       <h1 class="fancy">Heading dengan teks bergaya fancy</h1>
+       <p class="fancy">Paragraf dengan teks bergaya fancy</p>
+        
+    elemen p akan menggunakan rule p.fancy 
+    
+    
+    id selector
+        menggunakan # pada deklarasinya
+        tidak shareable, dapat digunakan sekali, nama harus unik untuk setiap id
+        
+    #special {
+          background-color: skyblue;
+      }
+      
+      <div id="special">
+   <p>Ini merupakan konten di dalam sebuah div yang diberi id special.</p>
+</div>
+
+
+attribute selector
+    
+     /* <a> element yang menerapkan nilai pada href dengan awalan "#" */
+       a[href^="#"] {
+           background-color: gold;
+       }
+ 
+       /* <a> element yang menerapkan nilai pada href yang mengandung teks "example" */
+       a[href*="example"] {
+           background-color: silver;
+       }
+       
+       
+    universal selector
+        menggunakan tanda * akan diterapkan pada seluruh elemen html
+        
+        
+COMBINATORS
+adjacent sibling, general sibling, child selector, descendant selector
+
+adjacent sibling - menggabungkan dua basic selector
+    img + p {
+        color: green;
+    }
+diterapkan pada paragraf <p> yang ada setelah elemen gambar
+
+general sibling selector
+    img ~ p {
+        color: green;
+    }
+ diterapkan pada elemen paragraf yang berada setelah elemen img
+ selama masih di dalam induk yang sama
+ 
+ 
+ Child selector - jika terdapat elemen section maka rule tidak diterapkan 
+    div > p {
+        background-color: yellow;
+    }
+    rule akan diterapkan pada elemen p yang berada
+    pada div
+ 
+ Descendant selector (spasi) - hirarki lebih luas dibandingkan child selector
+    div p {
+        background-color: yellow;
+    }
+    
+    
+    
+    
+  
+  PSEUDO SELECTOR
+
+    a:link {
+   color: red;
+}
+ 
+/* rule akan diterapkan pada sebuah tautan yang sudah pernah dikunjungi */
+a:visited {
+   color: green;
+}
+ 
+/* rule akan diterapkan pada sebuah tautan ketika diarahkan dengan kursor */
+a:hover {
+   color: pink;
+}
+ 
+/* rule akan diterapkan pada sebuah tautan ketika ditekan */
+a:active {
+   color:orange;
+}
+
+pseudo element
+menggunakan ::before dan ::after
+
+blockquote::before,
+blockquote::after {
+   content: '"';
+   font-size: 24px;
+   font-style: italic;
+   font-weight: bold;
+}
+
+contoh lain
+  /* Rule styling akan diterapkan pada karakter pertama disebuah paragraf */
+       p::first-letter {
+           font-size: 32px;
+           font-weight: bold;
+           color: saddlebrown;
+       }
+       
+  
+  FONT STYLING
+  Font family
+        body {
+            font-family: sans-serif;
+        }
+    - dituliskan secara kapital 
+    - gunakan tanda koma untuk memisahkan antar nilai font
+    kenapa menggunakan lebih dari 1 font ? beberapa browser tidak mendukung font tertentu
+    beberapa jenis font family
+    serif, sans-serif, monospace, cursive, fantasy, system-ui, math
+    
+    Font size
+    h1 {
+        font-size: 1.5em;
+    }
+    relative unit
+    em, ex, rem, ch, vw
+    
+    absolute unit
+    px, pt, pc, mm
+    
+    untuk mengatur ukuran font dapat digunakan persentase dan pixel
+    body {
+   font-size: 16px;
+}
+h1 {
+   font-size: 150%; /* 150% dari 16 = 24px */
+}
+
