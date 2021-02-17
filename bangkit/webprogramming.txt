@@ -856,3 +856,268 @@ h1 {
    font-size: 150%; /* 150% dari 16 = 24px */
 }
 
+
+
+
+
+
+
+
+
+
+
+
+Rabu, 17 Februari 2021
+font-weight 
+    mengatur ketebalan font
+    menggunakan numeric values 100 sampai 900 atau dengan descriptive terms normal, bold, lighter
+ 
+font-style 
+    menentukan postur dari teks
+    value dapat berupa normal, italic, oblique
+    
+font-variant
+    membuat tulisan menjadi small caps
+
+shorthand
+    membuat jalan pintas untuk memasukkan nilai dalam satu sintaks
+    target {
+        font: style weight variant size font-family
+    }
+    nilai font size dan font family wajib ada 
+    p {
+        font: 1em sans-serif;
+    }
+
+
+TEXT STYLING 
+Line height
+    mengatur jarak minimal dari garis dasar ke garis dasar 
+    menerapkan tinggi baris dua kali lebih tinggi dari ukuran font
+        p {
+            line-height: 2;
+        }
+        p {
+            line-height: 200%;
+        }
+        p {
+            line-height: 2em;
+        }
+Text indent 
+membuat lekuk di awal paragraf (tab)
+p#first {
+   text-indent: 2em;
+}
+ 
+p#second {
+   text-indent: 25%;
+}
+ 
+p#third {
+   text-indent: -35px;
+}
+
+
+Text alignment 
+meletakkan text di kiri, tengah, atau kanan
+p#first {
+text-align: left;
+}
+ 
+p#second {
+text-align: right;
+}
+ 
+p#third {
+text-align: center;
+}
+ 
+p#fourth {
+text-align: justify;
+}
+
+
+Text decoration
+    membuat underline, overline, line-through(teks dicoret)
+
+Text transform
+    membuat teks menjadi kapital di awal tiap kata (capitalize)
+    uppercase, lowercase
+    
+Word and letter spacing
+    mengatur jarak antar huruf atau jarak antar kata
+        p#letter {
+            letter-spacing: 4px;
+        }
+        p#word {
+            word-spacing: 1.5em;
+        }
+        
+Text shadow 
+    membuat teks memiliki bayangan
+    nilai pertama menunjukkan seberapa jauh ke kiri atau kanan bayangan akan ditampakkan
+    nilai kedua menunjukkan jarak ke atas dan ke bawah
+    nilai keempat menentukan warna
+            p#one {
+   text-shadow: 1px 1px 0px #000000;
+   background-color: #eeeeee;
+   color: #666666;
+}
+ 
+p#two {
+   text-shadow: 1px 1px 3px #666666;
+   background-color: #dddddd;
+   color: #666666;
+}
+
+
+
+MENGGUNAKAN GOOGLE FONT
+https://fonts.google.com/specimen/Quicksand?query=quicksand&preview.text_type=custom&sidebar.open=true&selection.family=Quicksand:wght@400;700
+
+menyalin snippet pada bagian import dan memasukkan ke dalam style.css
+memasukkan jenis font pada font-family
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+COLOR
+Menetapkan warna pada CSS
+    /* Warna hijau menggunakan format RGB */
+color: rgb(78,231,23);
+ 
+/* Warna hijau Menggunakan format HEX */
+color: #4ee717;
+ 
+/* Warna hijau menggunakan format HSL (hanya di CSS3)*/
+color: hsl(104, 82%, 50%);
+
+
+Predefined color name 
+    color: black;
+color: white;
+color: blue;
+
+
+Opacity
+menetapkan nilai transparan
+div#opacity {
+   background-color: red;
+   opacity: 0.5;
+}
+
+
+Foreground color - warna teks
+body {
+   color: steelblue;
+}
+
+Background color
+ #content > h2 {
+           background-color: #4c5450;
+           padding: 15px;
+           color: white;
+       }
+ 
+       #content > h3 {
+           background-color: #60d0a8;
+           padding: 15px;
+           color: white;
+       }
+       
+       
+BOX MODEL 
+box element
+    Content, padding, border, margin, edge of element
+    background-color akan diterapkan pada padding
+
+limiting dimension
+    menggunakan min width dan max width agar lebar konten 
+    dapat menyesuaikan layar pengguna
+        .content {
+           max-width: 800px;
+           height: 400px;
+           margin: 0 auto;
+           background-color: deeppink;
+       }
+       
+box sizing
+    div {
+           height: 200px;
+           width: 200px;
+           background-color: lightgreen;
+           border: 10px solid cornflowerblue;
+           padding: 20px;
+       }
+ 
+       .content {
+           box-sizing: content-box;
+       }
+ 
+       .box {
+           box-sizing: border-box;
+       }
+       
+BORDER       
+    garis yang mengelilingi area konten
+    
+  Border width
+    mengatur ketebalan dari border 
+    tidak bisa menggunakan %
+    .box {
+  border-width: 2px 1px 1px 2px; /*top right bottom left*/
+}
+
+
+    Border style
+        solid, dotted, dashed, double
+        .box {
+   border-top-style: solid;
+   border-right-style: dotted;
+   border-bottom-style: groove;
+   border-left-style: double;
+ 
+   border-width: 4px;
+   border-color: red;
+   width: 200px;
+   height: 50px;
+}
+
+Border color
+    memberikan warna pada border 
+    /* menggunakan rgb format */
+border-color: rgb(80, 138, 212);
+ 
+/* menggunakan format hex */
+border-color: #4ee717;
+
+Shorthand (shortcut)
+div {
+    border: width style color;
+}
+
+Padding
+    jarak antara konten dan border 
+         p {
+           border: 4px solid #00a2c6;
+           width: 275px;
+       }
+ 
+       p.example {
+           padding: 10px;
+       }
+       
+    mengatur padding tiap sisi
+        padding: 10px 15px 10px 15px;
+        
+MARGIN
+    mirip seperti padding
+    margin menjaga jarak antar satu elemen dengan elemen lain
+    
+    
+
+
