@@ -1117,7 +1117,158 @@ Padding
 MARGIN
     mirip seperti padding
     margin menjaga jarak antar satu elemen dengan elemen lain
-    
-    
+    menjaga jarak dengan batas browser
+    margin-top: 10px;
+margin-right: 15px;
+margin-bottom: 20px;
+margin-left: 25px;
+
+margin: 10px 15px 20px 25px;
 
 
+CENTERING CONTENT
+atur margin kanan dan kiri dengan nilai auto
+
+.center {
+           margin: 0 auto;
+       }
+       .box {
+           width: 50%;
+           border: 4px solid darkblue;
+           padding: 20px;
+           margin-bottom: 20px;
+       }
+
+DISPLAY ROLES
+Inline element
+    secara default tidak menambahkan baris baru
+Block element
+    secara default menambahkan baris baru]
+    
+properti display dapat digunakan untuk mengubah elemen block menjadi inline serta sebaliknya
+nilai dari display
+    inline : mengubah elemen menjadi inline
+    block : mengubah elemen menjadi block
+    inline-block : membuat elemen block tidak menambahkan baris baru
+    
+         li {
+           display: inline;
+ 
+           margin-left: 5px;
+       }
+       
+ Box shadow
+    box-shadow: 6px 6px 5px 10px #666666;
+    
+    nilai pertama - seberapa jauh ke kiri atau kanan
+    kedua - jarak ke atas atau ke bawah
+    ketiga - tingkat keburaman 
+    keempat - tingkat sebaran bayangan
+    
+ ROUNDED CORNER
+ .rounded {
+   border-radius: 10px;
+}
+
+mengatur tiap sisi secara terpisah
+.rounded {
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 10px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 10px;
+}
+dengan shorthand
+.rounded {
+   border-radius: 10px 5px 10px 5px;
+}
+
+
+POSITIONING
+static flow dan non static flow
+    non static flow memiliki struktur berbeda pada ilustrasi 3D
+    untuk menggesernya dapat menggunakan top, left, right, dan bottom
+    top, left, right, bottom hanya dapat digunakan pada 
+    non static flow - menerapkan relative, absolute, dan fixed pada properti position
+    
+Relative positioning
+     .relative {
+           position: relative;
+           top: 10px;
+           left: 100px;
+       }
+  posisi akan menjadi 10 px lebih ke bawah dan 100px lebih ke kanan
+  
+Absolute positioning
+    elemen ini tidak dianggap ada oleh normal flow
+    lokasi awal elemen akan ditempati elemen setelahnya
+    absolute {
+           position: absolute;
+           top: 0;
+           left: 500px;
+       }
+       
+    fixed positioning
+        absolute position namun posisinyaa relatif terhadap browser
+        posisi elemen akan statis ketika halaman discroll
+          .fixed {
+           position: fixed;
+           top: 0;
+           left: 0;
+       }
+        
+ FLOATING
+    membuat elemen berada pada sebelah kanan atau kiri
+    img {
+           float: left;
+           margin: 10px;
+       }
+    
+    untuk menyusun lebih dari satu kolom : gunakan nilai left pada semua selector
+     .left-content {
+           text-align: center;
+           line-height: 400px;
+           width: 33.3%;
+           height: 100%;
+           background-color: #00c7ed;
+           float: left;
+       }
+ 
+       .center-content {
+           text-align: center;
+           line-height: 400px;
+           width: 33.3%;
+           height: 100%;
+           background-color: #d0b541;
+           float: left;
+       }
+       
+    Solusi permasalahan float
+        menggunakan properti clear
+        menggunakan overflow: auto
+    
+    menggunakan clear
+        .clear {
+           clear: left;
+       }
+        <div class="clear"></div>
+        
+      dapat juga digunakan clear: both
+      
+    menggunakan overflow:auto
+         .container {
+           width: 800px;
+           border: 4px solid black;
+           overflow: auto;
+       }
+     hasilnya sama seperti clear
+     
+ META TAG VIEWPORT
+    digunakan untuk menyesuaikan halaman pada perangkat mobile
+    
+  elemen aside masih berantakan, dapat diatasi dengan fitur media query pada CSS
+  
+  Sticky positioning
+    kombinasi relative dan fixed positioning 
+    
+ FLEXBOX 
+ 
