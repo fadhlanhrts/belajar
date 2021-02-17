@@ -1272,3 +1272,53 @@ Absolute positioning
     
  FLEXBOX 
  
+mode layout yang mudah untuk mengatur elemen dengan container
+flexbox dapat mengatur ukuran secara otomatis
+dapat melakukan block model dan inline model dengan mudah
+
+Flex container 
+    elemen yang menampung beberapa flex item 
+    untuk membuat dapat digunakan properti display dengan nilai flex
+    .container {
+           display: flex;
+ 
+           /* Properti lainnya */
+           width: 800px;
+           height: 250px;
+           background-color: #11C5C6;
+           border: 2px solid black;
+           padding: 20px;
+           border-radius: 10px;
+           margin: 0 auto;
+       }
+       .box {
+           flex-grow: 1;
+ 
+           /* properti lainnya */
+           background-color: #FBDD1C;
+           margin: 5px;
+           border: 2px solid black;
+           border-radius: 10px;
+       }
+       
+       
+   Flex grow 
+        properti untuk memberi tahu berapa banyak ukuran yang harus ditetapkan oleh flex item 
+        analogi kue
+            flex grow: 1 ; flex grow: 2 ; flex grow: 1
+         
+    Flex direction
+        mengubah arah dari flexbox, secara default deretan akan tampil secara horizontal
+        .container {
+           display: flex;
+           flex-direction: column;
+           
+          }
+        akan menjadikan tampilan deret secara vertikal
+        
+        nilai yang dapat digunakan
+            row, row-reverse, column, column-reverse
+            
+      
+      Flex basis
+            
