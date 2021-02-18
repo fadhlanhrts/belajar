@@ -1336,4 +1336,36 @@ Flex container
     JAVASCRIPT
         dapat dituliskan sebagai atribut, embedded, atau file eksternal
         
-    
+    penulisan variabel - hoisting
+    x = 100;
+var x;
+console.log(x);
+
+/* output: 100 */
+
+variabel dengan tipe const tidak dapat diubah, mirip final pada java
+
+
+tipe data - number, string, boolean
+
+typeof - digunakan untuk menuliskan tipe data yang digunakan
+let x = 10;
+console.log(typeof(x))
+
+/* output: number */
+
+let y = 17.25;
+console.log(typeof(y))
+
+/* output: number */
+
+
+string
+let greet = "Hello";
+let moreGreet = greet + greet;
+console.log(moreGreet);
+
+/* output: HelloHello */
+
+
+
