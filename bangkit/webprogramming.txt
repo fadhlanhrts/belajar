@@ -1320,5 +1320,20 @@ Flex container
             row, row-reverse, column, column-reverse
             
       
+      
+      
+   
+   Rabu 18 Februari 2021
       Flex basis
-            
+            properti yang mirip dengan width dalam menentukan dimensi box
+        flex grow tidak menjamin elemen yang menerapkan nilai 2 akan lebih besar 2x lipat dari nilai 1
+        untuk mengisi kekosongan dapat digunakan flex basis dengan nilai 50%
+        .double {
+            flex-basis: 50%;
+           }
+           
+           
+    JAVASCRIPT
+        dapat dituliskan sebagai atribut, embedded, atau file eksternal
+        
+    
