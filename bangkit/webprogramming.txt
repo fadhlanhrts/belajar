@@ -1368,4 +1368,29 @@ console.log(moreGreet);
 /* output: HelloHello */
 
 
+Jumat 19 Februari 2021
+for loop
+DOM
 
+cara mengakses 
+const head = document.head
+const body = document.body
+
+for(let item of buttons) {
+   console.log(item)
+}
+
+document.querySelector(“.button”);
+untuk mendapatkan nilai button 
+
+Manipulasi elemen
+ <img id="catImage" src="https://i.ibb.co/9WT6LG6/two-three.jpg" alt="three-cats" width="600px"/>
+ 
+ let catImage = document.querySelector("#catImage");
+catImage.setAttribute("src", "https://i.ibb.co/55VG7vL/three-cat.jpg");
+    maka gambar akan berubah karena src diganti
+    
+fungsi getattribute untuk menampilkan atribut yang dimiliki
+    catImage.getAttribute("src");
+    
+    
