@@ -1394,3 +1394,37 @@ fungsi getattribute untuk menampilkan atribut yang dimiliki
     catImage.getAttribute("src");
     
     
+
+
+
+
+
+
+Sabtu 20 Februari 2021
+manipulasi konten elemen
+let caption = document.querySelector("#caption");
+caption.innerHTML = '<em>Tiga Anak Kucing</em>'
+
+innertext - dalam bentuk text
+    jika menggunakan innertext maka <em> akan ditampilkan
+    
+membuat elemen baru
+method pada dom yaitu createElement()
+    let newElement = document.createElement('p');
+    maka elemen <p> akan dibuat
+    
+ untuk memberikan nilai pada konten
+    newElement.innerHTML = 'Anda menekan gambar kucing sebanyak <span id="count">0</span> kali';
+    
+    untuk memasukkan elemen pada body 
+    menggunakan appendChild
+        document.body.appendChild(newElement);
+        
+ Menambahkan event pada element
+    catImage.addEventListener('click', function(event) {
+   document.querySelector('#count').innerText++;
+});
+
+
+        
+    
