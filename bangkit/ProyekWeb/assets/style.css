@@ -40,8 +40,15 @@ h2, h3 {
  }
 
  .featured-image {
+    width: 80%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
+ }
+
+ .intro {
     width: 100%;
-    max-height: 300px;
+    max-height: 400px;
     object-fit: cover;
     object-position: center;
  }
@@ -59,13 +66,14 @@ h2, h3 {
   background-color: darkkhaki;
  }
 
- .jumbotron {
-    font-size: 20px;
-    padding: 60px;
+ .homepage {
+    font-size: 30px;
+    padding: 80px;
     background-color: #00ebcc;
     
     text-align: center;
     color: rgb(20, 19, 19);
+    bottom: 0;
  }
 
  nav li {
@@ -75,7 +83,7 @@ h2, h3 {
  }
 
  nav {
-    background-color: #00a2c6;
+    background-color: #155664;
     padding: 5px;
     position: sticky;
     top: 0;
@@ -117,4 +125,10 @@ h2, h3 {
 
  section {
      font-size: small;
+     text-align: left;
+ }
+
+ #social-media {
+     width: 10%;
+     max-height: 50px;
  }
