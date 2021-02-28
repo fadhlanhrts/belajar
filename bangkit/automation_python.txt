@@ -1,0 +1,40 @@
+reading files
+
+file = open("spider.txt")
+
+print(file.readline()) 
+  output : satu per satu baris
+
+print(file.read())
+  output: baris hingga baris terakhir 
+  
+file.close()
+
+untuk menutup file secara otomatis
+  with open("spider.txt") as file:
+    print(file.read())
+    
+iterating inside file
+with open("spider.txt") as file:
+  for line in file:
+    print(line.upper())
+    output : isi file menjadi huruf kapital
+    
+ untuk menghilangkan spasi dapat digunakan strip()   
+ 
+  with open("spider.txt") as file:
+  for line in file:
+    print(line.strip().upper())
+    output : isi file menjadi huruf kapital
+    
+ 
+writing file 
+  with open("spider.txt", "w") as file:
+    file.write("This is the spider text")
+ 
+ w is for write
+ r is for read
+ a is for append
+ r+ is for read and write
+ 
+ 
