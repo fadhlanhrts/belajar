@@ -88,4 +88,23 @@ Working with files
   os.path.join() -> further reading
   
   
+  REGULAR EXPRESSIONS
+  using grep - case sensitive
+  grep thon /usr/home/words
+    output - all the lines containing thon as a string
+  
+  grep -i python /usr/home/words
+    anti case sensitive
+    
+  a dot will match anything
+    grep l.rts /usr/home/words
+      output : blurts, flirts, alerts
+      
+   grep ^fruit /usr/home/words
+    output : all lines that starts with fruit
+    
+   grep cat$ /usr/home/words
+    output: all lines that ends with cat
+    
+  
  
