@@ -38,3 +38,54 @@ writing file
  r+ is for read and write
  
  
+Working with files
+  using os module
+  import os
+  
+  delete file - using remove
+  os.remove("spider.txt")
+  
+  rename file
+  sintaks : os.rename(oldname, newname)
+  os.rename("spider.txt", "spiderman.txt")
+  
+  mengecek keberadaan file
+  os.path.exists("spiderman.txt")
+  
+  mencari ukuran file dalam byte 
+  os.path.getsize("spiderman.txt")
+  
+  mencari tahu kapan terakhir file dimodifikasi
+  os.path.getmtime("spiderman.txt")
+    output adalah timestamp, waktu sejak 1 Januari 1970
+    
+  cara lain 
+  import datetime
+  timestamp = os.path.getmtime("spiderman.txt")
+  datetime.datetime.fromtimestamp(timestamp)
+  
+  mencari path
+  os.path.abspath("spiderman.txt")
+  
+  
+  DIRECTORIES
+  print working directory
+  print(os.getcwd())
+  
+  create directory
+  os.mkdir("newdir")
+  
+  change directory
+  os.chdir("newdir")
+  
+  remove directory
+  os.rmdir("dir")
+    remove hanya berhasil jika directory kosong
+    
+  melihat isi directory
+  os.listdir("newdir")
+  
+  os.path.join() -> further reading
+  
+  
+ 
